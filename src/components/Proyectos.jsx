@@ -38,7 +38,8 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Blog con login de usuarios
           
         </h3>
-        <img className='rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={blog} alt="" />
+        <a target="_blank" href="https://frontend-blog-9a1a.vercel.app/registro">
+        <img className='rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={blog} alt="" /></a>
         </div>
         <div className='w-10 h-auto flex flex-row gap-2 pt-8'>
           <img  src={logoReact} alt="" />
