@@ -12,13 +12,14 @@ import logoMongo from '../img/logo-mongo.png'
 
 const Habilidades = () => {
   return (
-    <div id='habilidades' className='bg-zinc-900 text-white h-screen m-auto'>
+    <div id='habilidades' className='bg-zinc-900 text-white h-screen m-auto w-screen'>
+        <div className='w-3/4 m-auto'>
         <h2 className='text-3xl font-semibold text-center mt-20 mb-20 pt-12'>Habilidades</h2>
-        <p className='px-8 text-justify md:text-center'>Tengo experiencia comprobable en: React, Html, Css, Javascript, Tailwind, React Router Dom, React Hook Form, React context, 
+        <p className='px-8 text-center '>Tengo experiencia comprobable en: React, Html, Css, Javascript, Tailwind, React Router Dom, React Hook Form, React context, 
            Node js, Mongo DB, Mongoose.
         </p>
-        <p className='px-8 text-justify md:text-center'>Actualmente estudiando Node js</p>
-        <div className='grid grid-cols-9 grid-rows-2 mt-32 gap-4 mx-80'>
+        <p className='px-8 text-center '>Actualmente estudiando Node js</p>
+        <div className='grid grid-cols-9 grid-rows-2 mt-32 gap-4 '>
             <div>
                 <img src={logoReact} alt="" />
             </div>
@@ -48,6 +49,7 @@ const Habilidades = () => {
                 <img src={logoMongo} alt="" />
             </div>
 
+        </div>
         </div>
     </div>
   )

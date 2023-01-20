@@ -3,6 +3,11 @@
 }
 
 
+body{
+  overflow-x: hidden !important;
+ 
+}
+
 .titulo-azul{
   color: var(--blue);
 }
@@ -114,44 +119,54 @@ background-color: rgba(0,0,0,.7);
 }
 
 
-@media (max-width: 620px) {
-  
-  #inicio{
-    width: 150%;
-  }
-  html {
-    font-size: 8px;
-}
-}
 
-@media (max-width: 1024px) {
+
+@media (max-width: 1025px) {
   html {
-      font-size: 10px;
+      font-size: 14px;
   }
-  #inicio{
-    width: 120%;
-  }
+ 
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   html {
-      font-size: 9px;
+      font-size: 11px;
       width: 100%;
   }
-  #inicio{
-    width: 120%;
-  }
-  #habilidades{
-    width: 120%;
-  }
+ 
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 714px) {
+  
+ 
+  html {
+    font-size: 10px;
+}
+
+.grid-certificados{
+  display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.boton-certificado{
+  margin-bottom: 5rem;
+}
+}
+
+@media (max-width: 600px) {
   
 
   html {
-    font-size: 6px;
+    font-size: 9px;
+}
+}
+
+@media (max-width: 440px) {
+  
+
+  html {
+    font-size: 8px;
 }
 }
