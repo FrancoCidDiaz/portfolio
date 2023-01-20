@@ -146,8 +146,8 @@ background-color: rgba(0,0,0,.7);
 }
 
 .grid-certificados{
-  display: grid;
-grid-template-columns: 1fr 1fr;
+  display: grid !important;
+grid-template-columns: 1fr 1fr !important;
 
 
 }
