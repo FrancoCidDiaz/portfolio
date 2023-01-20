@@ -179,3 +179,11 @@ grid-template-columns: 1fr 1fr !important;
     font-size: 6.5px;
 }
 }
+
+@media (max-width: 300px) {
+  
+
+  html {
+    font-size: 5.5px;
+}
+}
