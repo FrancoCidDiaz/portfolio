@@ -31,7 +31,7 @@ const [modal4, setModal4] = useState(false)
                 <div className='text-center text-white bg-zinc-900 rounded-xl w-32 hover:bg-zinc-600 duration-700 p-1 boton-certificado'> <button onClick={() => setModal1(true)}>Certificado</button> </div>
             </div>
             <div className='flex flex-col justify-center items-center'>
-                <h3 className='text-center'>Master Logica de Programacion <br /> <span className='autor-curso'>Victor Robles </span></h3>
+                <h3 className='text-center'>Logica de Programacion <br /> <span className='autor-curso'>Victor Robles </span></h3>
                 <div className='h-36 mt-8 w-40 hover:w-44 duration-1000'><a target="_blank" href="https://www.udemy.com/share/104HCw3@BajWb8Tx1eRCjNq_fssZyMi7JcejA0Ymx2NsKuhoafPjd_OL1iSRnAv2aOuTOhcsyQ==/">
                 <img className='rounded-xl object-center' src={logoUdemy} alt="" /> </a></div>
                 <div className='text-center text-white bg-zinc-900 rounded-xl w-32 hover:bg-zinc-600 duration-700 p-1 boton-certificado'><button onClick={() => setModal2(true)}>Certificado</button> </div>
