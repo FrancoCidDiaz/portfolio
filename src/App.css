@@ -149,6 +149,7 @@ background-color: rgba(0,0,0,.7);
   display: grid;
 grid-template-columns: 1fr 1fr;
 
+
 }
 .boton-certificado{
   margin-bottom: 5rem;
