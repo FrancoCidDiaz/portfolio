@@ -11,6 +11,8 @@ import logoNode from '../img/logo-node.png'
 import logoMongo from '../img/logo-mongo.png'
 import logoGithub from '../img/logo-github.png'
 import blog from '../img/blog.png'
+import quiz from '../img/quiz-f1.png'
+import logoBootstrap from '../img/logo-bootstrap.png'
 
 const Proyectos = () => {
   return (
@@ -18,11 +20,11 @@ const Proyectos = () => {
     <h2 className='text-3xl font-semibold text-center mt-20 h-28'>Proyectos</h2>
     <div className=' flex justify-center gap-32'>
       <div>
-        <div>
+        <div className='w-100'>
         <h3 className='font-semibold text-center'>Academia virtual
           
         </h3>
-        <a target="_blank" href="https://integrador-nucba-dise-o-web.vercel.app/"><img className='rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={academia} alt="" /></a>
+        <a target="_blank" href="https://integrador-nucba-dise-o-web.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={academia} alt="" /></a>
         </div>
         <div className='w-12 flex mx-28 gap-4 pt-8'>
           <img  src={logoHtml} alt="" />
@@ -34,12 +36,12 @@ const Proyectos = () => {
         </div>
       
         <div>
-        <div>
+        <div className='w-100'>
         <h3 className='font-semibold text-center'>Blog con login de usuarios
           
         </h3>
         <a target="_blank" href="https://frontend-blog-9a1a.vercel.app/registro">
-        <img className='rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={blog} alt="" /></a>
+        <img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={blog} alt="" /></a>
         </div>
         <div className='w-10 h-auto flex flex-row gap-2 pt-8'>
           <img  src={logoReact} alt="" />
@@ -51,6 +53,23 @@ const Proyectos = () => {
         </div>
         <div>
           <a target="_blank" href="https://github.com/FrancoCidDiaz/Frontend-Blog"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
+        </div>
+        </div>
+
+        <div>
+        <div className='w-100'>
+        <h3 className='font-semibold text-center'>Quiz Formula 1
+          
+        </h3>
+        <a target="_blank" href="https://quiz-f1.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6' src={quiz} alt="" /></a>
+        </div>
+        <div className='w-10  flex mx-24 gap-4 pt-8'>
+          <img  src={logoReact} alt="" />
+          <img  src={logoBootstrap} alt="" />
+          <img  src={logoRouter} alt="" />
+        </div>
+        <div>
+          <a target="_blank" href="https://github.com/FrancoCidDiaz/quiz-f1"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
         </div>
         </div>
 
