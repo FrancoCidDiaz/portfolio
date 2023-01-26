@@ -187,3 +187,18 @@ grid-template-columns: 1fr 1fr !important;
     font-size: 5.5px;
 }
 }
+
+
+@media (min-width: 1300px) {
+  
+ .grid-proyectos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+ }
+.div-proyectos{
+  margin-top: 0;
+}
+
+
+}
