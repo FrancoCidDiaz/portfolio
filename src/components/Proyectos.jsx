@@ -87,7 +87,7 @@ const Proyectos = () => {
           
         </div>
         <div>
-          <a target="_blank" href="https://github.com/FrancoCidDiaz/quiz-f1"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
+          <a target="_blank" href="https://github.com/FrancoCidDiaz/workout-counter"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
         </div>
         </div>
 
