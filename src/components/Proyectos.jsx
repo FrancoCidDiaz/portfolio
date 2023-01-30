@@ -15,6 +15,7 @@ import quiz from '../img/quiz-f1.png'
 import logoBootstrap from '../img/logo-bootstrap.png'
 import workoutTracker from '../img/workout-tracker.png'
 import tipCalculator from '../img/tip-calculator.png'
+import calculadora from '../img/calculadora.png'
 
 const Proyectos = () => {
   return (
@@ -96,7 +97,7 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Tip-Calculator
           
         </h3>
-        <a target="_blank" href="https://tip-calculator-seven-rose.vercel.app//"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={tipCalculator} alt="" /></a>
+        <a target="_blank" href="https://tip-calculator-seven-rose.vercel.app"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={tipCalculator} alt="" /></a>
         </div>
         <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
           <img  src={logoReact} alt="" />
@@ -107,6 +108,23 @@ const Proyectos = () => {
           <a target="_blank" href="https://github.com/FrancoCidDiaz/tip-calculator"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
         </div>
         </div>
+        <div>
+        <div className='w-100 mt-10 div-proyectos'>
+        <h3 className='font-semibold text-center'>Calculadora
+          
+        </h3>
+        <a target="_blank" href="https://calculadora-six-sigma.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
+        </div>
+        <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
+          <img  src={logoReact} alt="" />
+          <img  src={logoTailwind} alt="" />
+          
+        </div>
+        <div>
+          <a target="_blank" href="https://github.com/FrancoCidDiaz/calculadora"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
+        </div>
+        </div>
+
 
 
      
