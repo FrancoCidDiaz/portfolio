@@ -3,7 +3,6 @@ import academia from '../img/academia.png'
 import logoReact from '../img/logo-react.png'
 import logoHtml from '../img/logo-html.png'
 import logoCss from '../img/logo-css.png'
-import logoJs from '../img/logo-js.png'
 import logoTailwind from '../img/logo-tailwind.png'
 import logoRouter from '../img/logo-router.png'
 import logoReactHook from '../img/logo-react-hook.png'
@@ -16,6 +15,7 @@ import logoBootstrap from '../img/logo-bootstrap.png'
 import workoutTracker from '../img/workout-tracker.png'
 import tipCalculator from '../img/tip-calculator.png'
 import calculadora from '../img/calculadora.png'
+import logoAws from '../img/logo-aws.png'
 
 const Proyectos = () => {
   return (
@@ -81,11 +81,12 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Workout-Tracker
           
         </h3>
-        <a target="_blank" href="https://workout-counter.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
+        <a target="_blank" href="https://main.dfjbhyzeimp9d.amplifyapp.com//"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
         </div>
         <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
           <img  src={logoReact} alt="" />
           <img  src={logoBootstrap} alt="" />
+          <img  src={logoAws} alt="" />
           
         </div>
         <div>
@@ -113,11 +114,12 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Calculadora
           
         </h3>
-        <a target="_blank" href="https://calculadora-six-sigma.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
+        <a target="_blank" href="https://main.d25ts98gwm1t7a.amplifyapp.com/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
         </div>
         <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
           <img  src={logoReact} alt="" />
           <img  src={logoTailwind} alt="" />
+          <img  src={logoAws} alt="" />
           
         </div>
         <div>
