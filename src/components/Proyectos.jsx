@@ -22,22 +22,25 @@ const Proyectos = () => {
     <div id='proyectos' className='pt-12 m-auto'>
     <h2 className='text-3xl font-semibold text-center mt-20 h-28'>Proyectos</h2>
     <div className='grid grid-cols-2 grid-rows-2 place-content-center justify-center items-center mx-8 grid-proyectos'>
-      <div>
-        <div className='w-100 '>
-        <h3 className='font-semibold text-center'>Academia virtual
+      
+      
+        <div>
+        <div className='w-100 mt-10 div-proyectos'>
+        <h3 className='font-semibold text-center'>Workout-Tracker
           
         </h3>
-        <a target="_blank" href="https://integrador-nucba-dise-o-web.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={academia} alt="" /></a>
+        <a target="_blank" href="https://workout-counter-pa3juduau-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
         </div>
-        <div className='w-12 flex justify-center mx-auto gap-4 pt-8'>
-          <img  src={logoHtml} alt="" />
-          <img  src={logoCss} alt="" />
+        <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
+          <img  src={logoReact} alt="" />
+          <img  src={logoBootstrap} alt="" />
+          <img  src={logoAws} alt="" />
+          
         </div>
         <div>
-          <a target="_blank" href="https://github.com/FrancoCidDiaz/Integrador-nucba-dise-o-web"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000 m-auto' src={logoGithub} alt="" /></a>
+          <a target="_blank" href="https://github.com/FrancoCidDiaz/workout-counter"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
         </div>
         </div>
-      
         <div>
         <div className='w-100'>
         <h3 className='font-semibold text-center'>Blog con login de usuarios
@@ -76,23 +79,7 @@ const Proyectos = () => {
         </div>
         </div>
 
-        <div>
-        <div className='w-100 mt-10 div-proyectos'>
-        <h3 className='font-semibold text-center'>Workout-Tracker
-          
-        </h3>
-        <a target="_blank" href="https://workout-counter-pa3juduau-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
-        </div>
-        <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
-          <img  src={logoReact} alt="" />
-          <img  src={logoBootstrap} alt="" />
-          <img  src={logoAws} alt="" />
-          
-        </div>
-        <div>
-          <a target="_blank" href="https://github.com/FrancoCidDiaz/workout-counter"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
-        </div>
-        </div>
+       
         <div>
         <div className='w-100 mt-10 div-proyectos'>
         <h3 className='font-semibold text-center'>Tip-Calculator
@@ -124,6 +111,21 @@ const Proyectos = () => {
         </div>
         <div>
           <a target="_blank" href="https://github.com/FrancoCidDiaz/calculadora"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000' src={logoGithub} alt="" /></a>
+        </div>
+        </div>
+        <div>
+        <div className='w-100 '>
+        <h3 className='font-semibold text-center'>Academia virtual
+          
+        </h3>
+        <a target="_blank" href="https://integrador-nucba-dise-o-web.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={academia} alt="" /></a>
+        </div>
+        <div className='w-12 flex justify-center mx-auto gap-4 pt-8'>
+          <img  src={logoHtml} alt="" />
+          <img  src={logoCss} alt="" />
+        </div>
+        <div>
+          <a target="_blank" href="https://github.com/FrancoCidDiaz/Integrador-nucba-dise-o-web"><img className='w-12 mx-auto mt-4 hover:w-16 duration-1000 m-auto' src={logoGithub} alt="" /></a>
         </div>
         </div>
 
