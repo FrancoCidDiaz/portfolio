@@ -10,6 +10,7 @@ import logoNode from '../img/logo-node.png'
 import logoMongo from '../img/logo-mongo.png'
 import logoBootstrap from '../img/logo-bootstrap.png'
 import logoAws from '../img/logo-aws.png'
+import logoJava from '../img/logo-java.png'
 
 
 const Habilidades = () => {
@@ -17,11 +18,11 @@ const Habilidades = () => {
     <div id='habilidades' className='bg-zinc-900 text-white h-screen m-auto w-screen'>
         <div className='w-3/4 m-auto'>
         <h2 className='text-3xl font-semibold text-center mt-20 mb-20 pt-12'>Habilidades</h2>
-        <p className='px-8 text-center '>Tengo experiencia comprobable en: React, Html, Css, Javascript, Aws, Tailwind, Bootstrap, React Router Dom, React Context, React Hook Form, React context, 
+        <p className='px-8 text-center '>Tengo experiencia comprobable en: React, Html, Css, Javascript, Aws, Java, Tailwind, Bootstrap, React Router Dom, React Context, React Hook Form, React context, 
            Node js, Mongo DB, Mongoose.
         </p>
         {/* <p className='px-8 text-center '>Actualmente estudiando Node js</p> */}
-        <div className='grid grid-cols-11 grid-rows-2 mt-32 gap-4 '>
+        <div className='grid grid-cols-12 grid-rows-2 mt-32 gap-4 '>
             <div >
                 <img src={logoReact} alt="" />
             </div>
@@ -36,6 +37,9 @@ const Habilidades = () => {
             </div>
             <div>
                 <img src={logoAws} alt="" />
+            </div>
+            <div>
+                <img src={logoJava} alt="" />
             </div>
             
             <div>

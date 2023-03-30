@@ -81,7 +81,7 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Workout-Tracker
           
         </h3>
-        <a target="_blank" href="https://main.dfjbhyzeimp9d.amplifyapp.com//"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
+        <a target="_blank" href="https://workout-counter-pa3juduau-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
         </div>
         <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
           <img  src={logoReact} alt="" />
@@ -114,7 +114,7 @@ const Proyectos = () => {
         <h3 className='font-semibold text-center'>Calculadora
           
         </h3>
-        <a target="_blank" href="https://main.d25ts98gwm1t7a.amplifyapp.com/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
+        <a target="_blank" href="https://calculadora-9yncsoeod-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 hover:h-60 duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
         </div>
         <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
           <img  src={logoReact} alt="" />
