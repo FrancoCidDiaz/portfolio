@@ -11,7 +11,8 @@ import logoMongo from '../img/logo-mongo.png'
 import logoBootstrap from '../img/logo-bootstrap.png'
 import logoAws from '../img/logo-aws.png'
 import logoJava from '../img/logo-java.png'
-
+import logoTypescript from '../img/logo-typescript.png'
+import logoNest from '../img/logo-nest.svg'
 
 const Habilidades = () => {
   return (
@@ -22,7 +23,7 @@ const Habilidades = () => {
            Node js, Mongo DB, Mongoose.
         </p>
         {/* <p className='px-8 text-center '>Actualmente estudiando Node js</p> */}
-        <div className='grid grid-cols-12 grid-rows-2 mt-32 gap-4 '>
+        <div className='grid grid-cols-7 grid-rows-2 mt-20 gap-4 '>
             <div >
                 <img src={logoReact} alt="" />
             </div>
@@ -59,6 +60,12 @@ const Habilidades = () => {
             </div>
             <div>
                 <img src={logoMongo} alt="" />
+            </div>
+            <div>
+                <img src={logoTypescript} alt="" />
+            </div>
+            <div>
+                <img src={logoNest} alt="" />
             </div>
 
         </div>
