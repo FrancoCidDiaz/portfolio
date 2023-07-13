@@ -15,8 +15,8 @@ body{
 li:hover{
   color: var(--blue);
  font-weight: 600;
- font-size: 1.2rem;
- transition: 0.45s;
+ font-size: 1.05rem;
+ transition: 0.7s;
 }
 
 .autor-curso{
