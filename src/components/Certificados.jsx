@@ -21,7 +21,7 @@ const [modal4, setModal4] = useState(false)
         {modal2 && <Modal certificado={certificado2} setModal2={setModal2}/>}
         {modal3 && <Modal certificado={certificado3} setModal3={setModal3}/>}
         {modal4 && <Modal certificado={certificado4} setModal4={setModal4}/>}
-        <h2 className='text-3xl font-semibold text-center pt-20'>Certificados</h2>
+        <h2 className='text-3xl font-semibold text-center pt-20'>Certificates</h2>
 
         <div className='grid grid-cols-4 grid-certificados mt-20 mx-12'>
             <div className='flex flex-col justify-center items-center'>

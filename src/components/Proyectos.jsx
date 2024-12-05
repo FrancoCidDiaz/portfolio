@@ -39,7 +39,7 @@ const Proyectos = () => {
         </div>
         <div>
           <div className='w-100'>
-            <h3 className='font-semibold text-center'>Blog con login de usuarios
+            <h3 className='font-semibold text-center'>Blog 
             </h3>
             <a target="_blank" href="https://frontend-blog-9a1a.vercel.app/registro">
               <img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={blog} alt="" /></a>
@@ -87,7 +87,7 @@ const Proyectos = () => {
         </div>
         <div>
           <div className='w-100 mt-10 div-proyectos'>
-            <h3 className='font-semibold text-center'>Calculadora
+            <h3 className='font-semibold text-center'>Calculator
             </h3>
             <a target="_blank" href="https://calculadora-9yncsoeod-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={calculadora} alt="" /></a>
           </div>
@@ -102,7 +102,7 @@ const Proyectos = () => {
         </div>
         <div>
           <div className='w-100'>
-            <h3 className='font-semibold text-center'>Academia virtual
+            <h3 className='font-semibold text-center'>Virtual Academy
             </h3>
             <a target="_blank" href="https://integrador-nucba-dise-o-web.vercel.app/"><img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={academia} alt="" /></a>
           </div>
