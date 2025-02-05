@@ -26,36 +26,18 @@ const Proyectos = () => {
           <div className='w-100 mt-10 div-proyectos'>
             <h3 className='font-semibold text-center'>Workout-Tracker
             </h3>
-            <a target="_blank" href="https://workout-counter-pa3juduau-francociddiaz.vercel.app/"><img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
+            <a target="_blank" href="https://workout-counter-2u9k-f5retmaki-francociddiazs-projects.vercel.app/"><img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={workoutTracker} alt="" /></a>
           </div>
           <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
             <img src={logoReact} alt="" />
             <img src={logoBootstrap} alt="" />
-            <img src={logoAws} alt="" />
+            {/* <img src={logoAws} alt="" /> */}
           </div>
           <div>
             <a target="_blank" href="https://github.com/FrancoCidDiaz/workout-counter"><img className='w-12 mx-auto mt-4 rounded-full shadow-lg hover:shadow-black duration-1000' src={logoGithub} alt="" /></a>
           </div>
         </div>
-        <div>
-          <div className='w-100'>
-            <h3 className='font-semibold text-center'>Blog 
-            </h3>
-            <a target="_blank" href="https://frontend-blog-9a1a.vercel.app/registro">
-              <img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={blog} alt="" /></a>
-          </div>
-          <div className='w-10 h-auto flex justify-center mx-auto gap-2 pt-8'>
-            <img src={logoReact} alt="" />
-            <img src={logoReactHook} alt="" />
-            <img src={logoRouter} alt="" />
-            <img src={logoNode} alt="" />
-            <img src={logoMongo} alt="" />
-            <img src={logoTailwind} alt="" />
-          </div>
-          <div>
-            <a target="_blank" href="https://github.com/FrancoCidDiaz/Frontend-Blog"><img className='w-12 mx-auto mt-4 rounded-full shadow-lg hover:shadow-black duration-1000 m-auto' src={logoGithub} alt="" /></a>
-          </div>
-        </div>
+      
         <div>
           <div className='w-100 mt-10 div-proyectos'>
             <h3 className='font-semibold text-center'>Quiz Formula 1
@@ -94,7 +76,7 @@ const Proyectos = () => {
           <div className='w-10  flex justify-center mx-auto gap-4 pt-8'>
             <img src={logoReact} alt="" />
             <img src={logoTailwind} alt="" />
-            <img src={logoAws} alt="" />
+            {/* <img src={logoAws} alt="" /> */}
           </div>
           <div>
             <a target="_blank" href="https://github.com/FrancoCidDiaz/calculadora"><img className='w-12 shadow-lg rounded-full hover:shadow-black mx-auto mt-4 duration-1000' src={logoGithub} alt="" /></a>
@@ -112,6 +94,25 @@ const Proyectos = () => {
           </div>
           <div>
             <a target="_blank" href="https://github.com/FrancoCidDiaz/Integrador-nucba-dise-o-web"><img className='w-12 rounded-full mx-auto mt-4 shadow-lg hover:shadow-black duration-1000 m-auto' src={logoGithub} alt="" /></a>
+          </div>
+        </div>
+        <div>
+          <div className='w-100'>
+            <h3 className='font-semibold text-center'>Blog 
+            </h3>
+            <a target="_blank" href="https://frontend-blog-9a1a.vercel.app/registro">
+              <img className='w-100 rounded-xl h-52 shadow-lg hover:shadow-black duration-1000 mt-6 m-auto' src={blog} alt="" /></a>
+          </div>
+          <div className='w-10 h-auto flex justify-center mx-auto gap-2 pt-8'>
+            <img src={logoReact} alt="" />
+            <img src={logoReactHook} alt="" />
+            <img src={logoRouter} alt="" />
+            <img src={logoNode} alt="" />
+            <img src={logoMongo} alt="" />
+            <img src={logoTailwind} alt="" />
+          </div>
+          <div>
+            <a target="_blank" href="https://github.com/FrancoCidDiaz/Frontend-Blog"><img className='w-12 mx-auto mt-4 rounded-full shadow-lg hover:shadow-black duration-1000 m-auto' src={logoGithub} alt="" /></a>
           </div>
         </div>
       </div>
